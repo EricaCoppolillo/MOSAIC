@@ -84,11 +84,11 @@ python evaluate.py --test [TEST]
 # Evaluate Gemini on the Moral Foundations Questionnaire
 python evaluate.py -l gemini -t mfq2
 
-# Run all personality-related tests on Llama
-python evaluate.py -l llama -t personality
-
-# Evaluate all models on The Moral Machine scenarios
+# Evaluate all models on The Moral Machine dilemma
 python evaluate.py -t the_moral_machine
+
+# Evaluate Qwen on all available tests
+python evaluate.py -l qwen 
 ```
 
 
