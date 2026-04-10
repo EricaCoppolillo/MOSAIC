@@ -9,6 +9,9 @@ MOSAIC provides a systematic way to evaluate different LLMs on a range of psycho
 
 ## Supported Models
 
+- **o4-mini** - Openai's model
+- **GPT-4o** - Openai's model
+- **DeepSeek-R1** - Deepseek's model
 - **Gemini-2-flash** - Google's model
 - **LLaMa-3.3-70B** - Meta's model
 - **Qwen-3-32B** - Alibaba's model
@@ -84,11 +87,11 @@ python evaluate.py --test [TEST]
 # Evaluate Gemini on the Moral Foundations Questionnaire
 python evaluate.py -l gemini -t mfq2
 
-# Evaluate all models on The Moral Machine dilemma
-python evaluate.py -t the_moral_machine
+# Run all personality-related tests on Llama
+python evaluate.py -l llama -t personality
 
-# Evaluate Qwen on all available tests
-python evaluate.py -l qwen 
+# Evaluate all models on The Moral Machine scenarios
+python evaluate.py -t the_moral_machine
 ```
 
 
