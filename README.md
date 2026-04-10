@@ -94,4 +94,7 @@ python evaluate.py -l llama -t personality
 python evaluate.py -t the_moral_machine
 ```
 
+# Requirements
+
+In order to run the experiments, you need to create a `secret.py` file where specifying your API keys
 
